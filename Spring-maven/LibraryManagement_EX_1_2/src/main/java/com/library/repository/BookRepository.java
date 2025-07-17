@@ -1,10 +1,11 @@
 package com.library.repository;
 
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Repository
 public class BookRepository {
     public List<String> books;
 
