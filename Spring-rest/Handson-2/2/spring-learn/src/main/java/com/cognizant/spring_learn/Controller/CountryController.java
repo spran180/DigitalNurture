@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CountryController {
-
     @Autowired
     @Qualifier("in")
     private Country country;
